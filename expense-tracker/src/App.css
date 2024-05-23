@@ -1,0 +1,48 @@
+/* App js css */
+:root {
+  --main-color: rgb(110, 137, 255);
+  --light-color: snow;
+  --white-color: white;
+}
+
+.main {
+  min-height: 80vh;
+  background-color: var(--main-color);
+  width: 75%;
+  margin: 50px auto;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.heading {
+  color: var(--white-color);
+  text-align: center;
+}
+
+/* expenseItem css */
+.expensItem {
+  width: 100%;
+  background-color: var(--light-color);
+  margin: 15px auto;
+  padding: 10px;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.date-title {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+.amount {
+  background-color: var(--main-color);
+  color: var(--white-color);
+  padding: 3px 10px;
+  font-size: 1.1rem;
+  border-radius: 10px;
+}
