@@ -1,0 +1,41 @@
+:root {
+  --main-color: #6bb7be;
+  --light-color: #eaf7f7;
+}
+
+.main-btn {
+  background-color: var(--main-color);
+  padding: 10px 20px;
+  border: 2px solid var(--main-color);
+  color: white;
+  font-size: 1.2rem;
+  font-weight: 400;
+}
+
+.main-btn:hover {
+  background-color: transparent;
+  color: var(--main-color);
+}
+
+.hero-row {
+  min-height: 85vh;
+}
+
+
+/* ======= furniture section ========== */
+.furniture-card {
+  background-color: var(--light-color) !important;
+  padding: 30px;
+}
+
+.card-img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 275px;
+  padding: 35px;
+}
+
+.text-main {
+  color: var(--main-color);
+}
