@@ -46,45 +46,43 @@ function FurnitureSection() {
   ];
 
   return (
-    <>
-      <div className="container my-4">
-        <div>
-          <h3 className="fw-bold">OUR FURNITURE</h3>
-          <p>
-            which don't look even slightly believable. If you are going to use a
-            passage of Lorem Ipsum, you need to be sure there isn't an
-          </p>
-        </div>
+    <section className="container my-4">
+      <div>
+        <h3 className="fw-bold">OUR FURNITURE</h3>
+        <p>
+          which don't look even slightly believable. If you are going to use a
+          passage of Lorem Ipsum, you need to be sure there isn't an
+        </p>
+      </div>
 
-        <div className="row">
-          {cards.map((card) => {
-            return (
-              <>
-                <div className="col-lg-4 col-md-6 mb-2 p-3">
-                  <div className="card border-0 furniture-card">
-                    <div className="card-img">
-                      <img src={card.img} className="img-fluid" alt="..." />
-                    </div>
-                    <div className="card-body">
-                      <p className="card-title fs-5 ">{card.title}</p>
-                    </div>
-                    <div className="d-flex justify-content-between">
-                      <p className="fs-5">
-                        <span className="text-main"> $ </span>
-                        {card.price}
-                      </p>
-                      <a href="#" className="text-main text-decoration-none">
-                        BUY NOW
-                      </a>
-                    </div>
+      <div className="row">
+        {cards.map((card) => {
+          return (
+            <>
+              <div className="col-lg-4 col-md-6 mb-2 p-3">
+                <div className="card border-0 furniture-card">
+                  <div className="card-img">
+                    <img src={card.img} className="img-fluid" alt="..." />
+                  </div>
+                  <div className="card-body">
+                    <p className="card-title fs-5 ">{card.title}</p>
+                  </div>
+                  <div className="d-flex justify-content-between">
+                    <p className="fs-5">
+                      <span className="text-main"> $ </span>
+                      {card.price}
+                    </p>
+                    <a href="#" className="text-main text-decoration-none">
+                      BUY NOW
+                    </a>
                   </div>
                 </div>
-              </>
-            );
-          })}
-        </div>
+              </div>
+            </>
+          );
+        })}
       </div>
-    </>
+    </section>
   );
 }
 

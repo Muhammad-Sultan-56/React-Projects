@@ -8,6 +8,7 @@ import "../node_modules/bootstrap-icons/font/bootstrap-icons.min.css"
 import Navbar from './components/Navbar';
 import HeroSection from './components/HeroSection';
 import FurnitureSection from './components/FurnitureSection';
+import AboutSection from './components/AboutSection';
 
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
       <Navbar></Navbar>
       <HeroSection></HeroSection>
       <FurnitureSection></FurnitureSection>
+      <AboutSection></AboutSection>
     </>
 
   );
